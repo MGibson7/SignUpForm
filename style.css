@@ -1,0 +1,59 @@
+:root{
+    --tealbox: rgba(4, 106, 119, 0.466);
+    --backcol: rgb(0, 0, 0);
+
+}
+
+.container{
+    display:flex;
+    max-width: 100%;
+    margin: 0px;
+    background-color: var(--backcol)
+}
+
+#left-background{
+    flex-basis: 30%;
+    background-image: url("space.webp");
+    background-repeat: repeat;
+    padding-bottom: 100vh;
+    display:flex;
+
+}
+
+#opacity-box{
+    background-color: var(--tealbox);
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color:rgb(2, 38, 43);
+    position: relative;
+    top: 200px;
+    max-height: 100px;
+
+}
+
+img{
+    max-height: 100px;
+    max-width: 100px;
+    flex-basis: 100%;
+}
+
+
+#right-info{
+    flex-basis:100%;
+    background-color: black;
+    padding: 50px;
+    padding-bottom: 100vh;
+
+}
+
+
+.spacer{
+    padding: 50px;
+    background-color: var(--backcol);
+
+}
+
+.form{
+    background-color: var(--tealbox)
+}
