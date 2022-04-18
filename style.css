@@ -20,6 +20,10 @@
 
 }
 
+#left-background *{
+    flex-basis: 100%;
+}
+
 #opacity-box{
     background-color: var(--backcol);
     display: flex;
@@ -63,10 +67,10 @@ img{
 }
 
 .spacer img{
-    max-height: 500px;
-    max-width: 500px;
+    max-height: 300px;
+    max-width: 300px;
     position: relative;
-    left: 400px;
+    left: calc(100vw/2)
 }
 
 
